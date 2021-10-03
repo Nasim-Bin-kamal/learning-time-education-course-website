@@ -1,0 +1,30 @@
+[
+    {
+        "courseId": "1001",
+        "courseName": "Python for Data Science & Machine Learning",
+        "price": 50,
+        "image": "../src/utilities/images/course-1.jpeg",
+        "description": "Python for Data Science and Machine Learning is a popular Python Course. The first part of the course is a Python crash course that covers data structures and Python syntax. Once that's out of the way then you'll learn popular libraries used in Data Science and Machine Learning such as NumPy, Pandas, Matplotlib, etc."
+    },
+    {
+        "courseId": "1010",
+        "courseName": "Mobile Application Development",
+        "price": 50,
+        "image": "../src/utilities/images/course-10.jpeg",
+        "description": "Mobile app development is the act or process by which a mobile app is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones. These software applications are designed to run on mobile devices, such as a smartphone or tablet computer."
+    },
+    {
+        "courseId": "1003",
+        "courseName": "The complete web development bootcamp.",
+        "price": 50,
+        "image": "../src/utilities/images/course-3.jpeg",
+        "description": "Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.The field of web development is generally broken down into front-end (the user-facing side) and back-end (the server side)."
+    },
+    {
+        "courseId": "1005",
+        "courseName": "Graphic Designing",
+        "price": 25,
+        "image": "../src/utilities/images/course-5.jpeg",
+        "description": "Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience."
+    }
+]

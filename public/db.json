@@ -1,0 +1,72 @@
+[
+    {
+        "courseId": "1001",
+        "courseName": "Python for Data Science & Machine Learning",
+        "price": 50,
+        "image": "../src/utilities/images/course-1.jpeg",
+        "description": "Python for Data Science and Machine Learning is a popular Python Course. The first part of the course is a Python crash course that covers data structures and Python syntax. Once that's out of the way then you'll learn popular libraries used in Data Science and Machine Learning such as NumPy, Pandas, Matplotlib, etc."
+    },
+    {
+        "courseId": "1002",
+        "courseName": "Quantum physics made it Relatively simple.",
+        "price": 30,
+        "image": "../src/utilities/images/course-2.jpeg",
+        "description": "Quantum physics underlies how atoms work, and so why chemistry and biology work as they do. You, me and the gatepost – at some level at least, we’re all dancing to the quantum tune. If you want to explain how electrons move through a computer chip, how photons of light get turned to electrical current in a solar panel or amplify themselves in a laser, or even just how the sun keeps burning, you’ll need to use quantum physics."
+    },
+    {
+        "courseId": "1003",
+        "courseName": "The complete web development bootcamp.",
+        "price": 50,
+        "image": "../src/utilities/images/course-3.jpeg",
+        "description": "Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.The field of web development is generally broken down into front-end (the user-facing side) and back-end (the server side)."
+    },
+    {
+        "courseId": "1004",
+        "courseName": "Dave conservatoire is The Entirely free online.",
+        "price": 20,
+        "image": "../src/utilities/images/course-4.jpeg",
+        "description": "Dave Conservatoire aims to provide a world class music education for the world for free. It is a non-profit organisation established in 2011 by musician and teacher David Rees. Since then the site has delivered over 750,000 video music lessons and 1,200,000 interactive exercises to students in over 50 countries "
+    },
+    {
+        "courseId": "1005",
+        "courseName": "Graphic Designing",
+        "price": 25,
+        "image": "../src/utilities/images/course-5.jpeg",
+        "description": "Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience."
+    },
+    {
+        "courseId": "1006",
+        "courseName": "Online Marketing",
+        "price": 20,
+        "image": "../src/utilities/images/course-6.jpeg",
+        "description": "Digital marketing is the component of marketing that utilizes internet and online based digital technologies such as desktop computers, mobile phones and other digital media and platforms to promote products and services. "
+    },
+    {
+        "courseId": "1007",
+        "courseName": "Brand & Strategy",
+        "price": 15,
+        "image": "../src/utilities/images/course-7.jpeg",
+        "description": "In marketing, brand management begins with an analysis on how a brand is currently perceived in the market, proceeds to planning how the brand should be perceived if it is to achieve its objectives and continues with ensuring that the brand is perceived as planned and secures its objectives. "
+    },
+    {
+        "courseId": "1008",
+        "courseName": "Basic photography",
+        "price": 20,
+        "image": "../src/utilities/images/course-8.jpeg",
+        "description": "Basic photography: Photographic image and its influence. Shaping imagination and truth, History of photography.Camera and lens function:Different parts of camera, lens, aperture, shutter speed, focus, focal length, etc.Talking about the film, ISO, Introduction to exposure, How to develop image quality.A brief discussion about basic composition on indoor and outdoor light.Light & flash photography: Basic principle of light, nature of day & artificial light, the introduction of flash, flash in daylight, tungsten light, indoor & outdoor lighting."
+    },
+    {
+        "courseId": "1009",
+        "courseName": "Sccial Marketing",
+        "price": 15,
+        "image": "../src/utilities/images/course-9.jpeg",
+        "description": "Social marketing has the primary goal of achieving. Traditional commercial marketing aims are primarily financial, though they can have positive social effects as well. In the context of public health, social marketing would promote general health, raise awareness and induce changes in behaviour."
+    },
+    {
+        "courseId": "1010",
+        "courseName": "Mobile Application Development",
+        "price": 50,
+        "image": "../src/utilities/images/course-10.jpeg",
+        "description": "Mobile app development is the act or process by which a mobile app is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones. These software applications are designed to run on mobile devices, such as a smartphone or tablet computer."
+    }
+]
