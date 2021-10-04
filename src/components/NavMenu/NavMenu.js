@@ -11,7 +11,7 @@ const NavMenu = () => {
     }
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="" variant="lignt" className="py-2 d-flex">
+            <Navbar collapseOnSelect expand="lg" bg="" variant="lignt" className="p-2 d-flex">
                 <Container>
                     <Navbar.Brand href="#home">
                         <img className="img-fluid w-50" src={logo} alt="logo" />
@@ -21,10 +21,9 @@ const NavMenu = () => {
 
                         <Nav className="me-auto">
                             <NavLink className="menu" activeStyle={activeStyle} to="/home">Home</NavLink>
-                            <NavLink className="menu" activeStyle={activeStyle} to="/about">About Us</NavLink>
+                            <NavLink className="menu" activeStyle={activeStyle} to="/about">About</NavLink>
                             <NavLink className="menu" activeStyle={activeStyle} to="/courses">Courses</NavLink>
-                            <NavLink className="menu" activeStyle={activeStyle} to="/contact">Contact Us</NavLink>
-
+                            <NavLink className="menu" activeStyle={activeStyle} to="/contact">Contact</NavLink>
                         </Nav>
                         <Nav>
                             <Button variant="success">Login</Button>

@@ -7,6 +7,8 @@ import Courses from './components/Courses/Courses';
 import Contact from './components/Contact/Contact';
 import NotFound from './components/NotFound/NotFound';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (
@@ -26,14 +28,15 @@ function App() {
           <Route exact path="/courses">
             <Courses />
           </Route>
+
           <Route exact path="/contact">
             <Contact></Contact>
           </Route>
           <Route path="*">
             <NotFound />
           </Route>
-
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

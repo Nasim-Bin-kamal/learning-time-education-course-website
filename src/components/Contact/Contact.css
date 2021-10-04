@@ -1,0 +1,17 @@
+.form-bg {
+  background-color: #f5d76e;
+  border-radius: 10px;
+}
+.form-title {
+  color: #2f4e71;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.subtitle {
+  color: #333850;
+  font-weight: 700;
+  font-size: 20px;
+}
+.btn-submit {
+  background-color: #3a70ad;
+}

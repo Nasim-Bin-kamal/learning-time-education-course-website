@@ -1,0 +1,21 @@
+.about {
+  background-color: #05967e2d;
+}
+.about-header {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  background-color: #399c97b6;
+}
+.desc {
+  color: #044370;
+}
+.title {
+  font-size: 50px;
+}
+.point {
+  font-size: 20px;
+  font-weight: 700;
+}

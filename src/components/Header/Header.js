@@ -1,6 +1,5 @@
 import React from 'react';
 import NavMenu from '../NavMenu/NavMenu';
-import TopBanner from '../TopBanner/TopBanner';
 import './Header.css'
 
 const Header = () => {

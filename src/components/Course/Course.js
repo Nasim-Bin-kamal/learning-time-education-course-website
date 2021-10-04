@@ -1,8 +1,13 @@
 import React from 'react';
-import { Card, Button, Col } from 'react-bootstrap';
+import { Card, Col, Button } from 'react-bootstrap';
+import { useHistory } from 'react-router';
 
-const TopCourse = ({ course }) => {
-    const { image, courseName, price } = course || {};
+const Course = ({ course }) => {
+    const { image, courseId, courseName, price } = course || {};
+    const history = useHistory();
+    const handleShowDetails = () => {
+        history.push(`/course/${courseId}`);
+    }
     return (
         <div>
             <Col md={12} className="m-2 p-2 border border-3 rounded-3 shadow-lg" >
@@ -10,18 +15,22 @@ const TopCourse = ({ course }) => {
                     <Card.Img variant="top" src={image} style={{ width: "100%", height: "200px" }} />
                     <Card.Body>
                         <Card.Title>{courseName}</Card.Title>
+                        <h5>Course ID: {courseId}</h5>
                         <Card.Text>
                             Course Fee: ${price}
                         </Card.Text>
                     </Card.Body>
 
-                    <Button variant="success rounded-3 w-50 mx-auto">See Details</Button>
+                    <Button
+                        onClick={handleShowDetails}
+                        variant="success w-50 mx-auto">See Details
+                    </Button>
+
 
                 </Card>
             </Col >
-
-        </div >
+        </div>
     );
 };
 
-export default TopCourse;
+export default Course;
